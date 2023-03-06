@@ -11,9 +11,11 @@ public class BT3{
 		age = scanner.nextInt();
 		if(age < 16) {
 			System.out.println("Bạn "+ name + " ở độ tuổi vị thành niên!");
-		}else if(age >= 16 && age < 18) {
+		}
+		else if(age >= 16 && age < 18) {
 			System.out.println("Bạn "+ name + " ở độ tuổi trưởng thành!");
-		}else {
+		}
+		else {
 			System.out.println("Bạn "+ name + " đã già!");
 		}
 	}

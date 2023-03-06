@@ -1,6 +1,4 @@
-package BaiTapTuan_4;
 import java.util.Scanner;
-
 public class BT1{
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
@@ -8,7 +6,6 @@ public class BT1{
         int a = scanner.nextInt();
         System.out.println("Nhập số thứ hai: ");
         int b = scanner.nextInt();
-        
         int Tong = a + b; 
         System.out.println("Tổng = "+ Tong); 
         int Hieu = a - b; 
@@ -19,7 +16,6 @@ public class BT1{
         System.out.println("Thương = " + Thuong);
         int PhanDu = a % b; 
         System.out.println("Phần Dư = " + PhanDu);
-         
         if (a > b) {
             System.out.println(a + " lớn hon " + b);
         } else if (a < b) {

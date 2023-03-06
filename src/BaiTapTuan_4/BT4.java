@@ -1,12 +1,11 @@
-package BaiTapTuan_4;
 import java.util.Scanner;
 
-public class Lab2_Execrise4 {
+public class BT4{
 	public static void main(String[] args) {
 		int month;
-		Scanner sc = new Scanner(System.in);
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Nhập số từ 1 đến 12 : ");
-		month = sc.nextInt();
+		month = scanner.nextInt();
 		switch (month){
         case 1:
             System.out.println("Tháng " + month);
@@ -46,5 +45,4 @@ public class Lab2_Execrise4 {
             break;
 		}
 	}
-
 }

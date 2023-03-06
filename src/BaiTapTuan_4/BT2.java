@@ -8,7 +8,8 @@ public class BT2{
 	number = scanner.nextInt();
 	if(number % 2 == 0) {
 		System.out.println("Số chẵn");
-	}else {
+	}
+	else {
 		System.out.println("Số lẻ");
 		}
 	}
